@@ -191,6 +191,8 @@ h5 {
 
 .btn:hover {
   background: #6c8cff;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .input:hover {
   border: 1px solid #000;
