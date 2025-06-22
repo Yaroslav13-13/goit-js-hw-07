@@ -74,6 +74,8 @@ h5 {
 
 .form-input:hover {
   border: 1px solid #000;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .form-input:focus {
@@ -181,6 +183,8 @@ h5 {
 }
 .input:hover {
   border: 1px solid #000;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .input:focus {
@@ -188,7 +192,7 @@ h5 {
   border: 1px solid #808080;
 }
 
-/*! ================ Task-4 ========================= */
+/*! ================ Task-5 ========================= */
 .widget {
   display: flex;
   flex-direction: column;
@@ -208,4 +212,10 @@ h5 {
   height: 40px;
   background: #4e75ff;
   border-color: transparent;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
