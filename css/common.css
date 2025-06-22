@@ -128,6 +128,17 @@ h5 {
   margin-bottom: 16px;
 }
 
+#name-input:hover {
+  border: 1px solid #000;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#name-input:focus {
+  outline: none;
+  border: 1px solid #808080;
+}
+
 /*! ================ Task-4 ========================= */
 .login-form {
   display: flex;
